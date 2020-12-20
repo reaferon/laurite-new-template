@@ -1,0 +1,28 @@
+.header__search {
+  grid-area: search;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__search::before {
+  background-image: url(../../../images/svg/search.svg);
+  background-repeat: no-repeat;
+  content: '';
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+@media (min-width : 1024px) {
+  .header__search {
+    outline: 1px solid blue;
+    margin: 0 0 0 20px;
+  }
+
+  .header__search::before {
+    background: none;
+    background-image: none;
+    width: 0px;
+    height: 0px;
+  }
+}

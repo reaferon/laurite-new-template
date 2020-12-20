@@ -1,0 +1,27 @@
+.menu__link_type_cart::before {
+  background-image: url(../../../../images/svg/cart.svg);
+}
+
+@media (min-width : 1024px) {
+  .menu__link_type_cart {
+    min-height: 90px;
+    margin: -59px 4px 0 0;
+    background-color: #fafafa;
+    border: 1px solid rgba(0,0,0, .2);
+    position: relative;
+    
+  }
+
+  .menu__link_type_cart::before {
+    height: 40px;
+    width: 40px;
+    margin: auto 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    content: '3';
+    background-image: url(../../../../images/svg/cart.svg);
+  }
+}

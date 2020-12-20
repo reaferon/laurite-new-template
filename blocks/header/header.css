@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 150px  auto 50px 100px;
+  grid-template-rows: 50px;
+  grid-template-areas: "logo . search user";
+}
+
+@media (min-width : 1024px) {
+  .header {
+    /* padding: 0 4px 0 0; */
+    grid-template-columns: 150px  minmax(380px, 780px) 100px auto 200px;
+    grid-template-areas: "logo search . user .";
+  }
+}

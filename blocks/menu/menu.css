@@ -1,0 +1,14 @@
+.menu {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  background: #fafafa;
+}
+
+@media (min-width : 1024px) {
+  .menu {
+    grid-template-columns: repeat(4, 1fr) 180px;
+    background: transparent;
+  }
+}

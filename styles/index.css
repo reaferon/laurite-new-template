@@ -1,0 +1,29 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__user/header__user.css);
+@import url(../blocks/header/__icon/header__icon.css);
+@import url(../blocks/header/__icon-link/_type/header__icon-link_type_favorits.css);
+@import url(../blocks/header/__icon-link/_type/header__icon-link_type_profile.css);
+@import url(../blocks/header/__icon-link/header__icon-link.css);
+
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__menu/navigation__menu.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__link/_type/menu__link_type_directory.css);
+@import url(../blocks/menu/__link/_type/menu__link_type_delivery.css);
+@import url(../blocks/menu/__link/_type/menu__link_type_discounts.css);
+@import url(../blocks/menu/__link/_type/menu__link_type_instructions.css);
+@import url(../blocks/menu/__link/_type/menu__link_type_cart.css);
+
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/footer/footer.css);
