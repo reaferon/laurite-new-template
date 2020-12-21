@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laurite</title>
+  <!-- <link href="./styles/index.css" rel="stylesheet"> -->
+</head>
+<body class="body">
+  <header class="header">
+    <a href="/" class="header__logo"></a>
+    <nav class="header__navigation">
+      <ul class="menu navigation__menu">
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_directory">Каталог</a></li>
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_delivery">Доставка</a></li>
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_discounts">Скидки</a></li>
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_instructions">Инструкции</a></li>
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_cart">Корзина</a></li>
+      </ul>
+    </nav>
+    <form action="/" class="header__search"></form>
+    <ul class="header__user">
+      <li class="header__icon"><a class="header__icon-link header__icon-link_type_favorits" href="/"></a></li>
+      <li class="header__icon"><a class="header__icon-link header__icon-link_type_profile" href="/"></a></li>
+      <li class="header__icon"><a class="header__icon-link header__icon-link_type_cart" href="/"></a></li>
+    </ul>
+  </header>
+
+  <h1 class="title">title</h1>
+  <main class="main">
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+    main <br>
+  </main>
+  <footer class="footer">
+    footer
+  </footer>
+  <style>
+    .body {
+      margin: 0;
+    }
+    .header__user, .menu {
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+    }
+
+    .header {
+      background-color: #666;
+      height: 42px;
+      display: grid;
+      grid-template-columns: 102px auto 42px 84px;
+      grid-template-areas:
+      "logo search user";
+      box-sizing: border-box;
+    }
+    .header__logo {
+      grid-area: logo;
+      outline: 1px solid #fff;
+      width: 102px;
+      height: 34px;
+      padding: 4px 0 0 0;
+    }
+    .header__navigation {
+      grid-area: nav;
+      
+      position: fixed;
+      bottom: 0;
+      height: 42px;
+      background-color: #666;
+      font-size: 8px;
+      width: calc(100% - 42px);
+    }
+    .header__search {
+      grid-area: search;
+      outline: 1px solid #fff;
+    }
+    .header__user {
+      grid-area: user;
+      width: 102px;
+      display: flex;
+      padding: 0;
+      justify-content: space-between;
+      align-items: center;
+      outline: 1px solid yellow;
+    }
+    .header__icon-link_type_favorits, .header__icon-link_type_profile, .header__icon-link_type_cart {
+      background-image: url(./images/svg/heart.svg);
+      width: 22px;
+      height: 22px;
+      display: flex;
+    }
+    .header__icon-link_type_profile {
+      background-image: url(./images/svg/avatar.svg);
+    }
+    
+    .header__icon-link_type_cart {
+      background-image: url(./images/svg/cart.svg);
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: #666;
+      width: 42px;
+      height: 42px;
+    }
+
+
+    @media (min-width : 1024px) {
+      .header {
+      grid-template-columns: auto 102px minmax(400px, 640px) minmax(300px, 450px) 110px auto;
+      grid-template-areas:
+      ". logo nav search user .";
+      box-sizing: border-box;
+    }
+    .header__navigation {
+      position: relative;
+    }
+    }
+
+
+  </style>
+</body>
+</html>
