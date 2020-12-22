@@ -1,0 +1,18 @@
+.header {
+  grid-area: header;
+  display: grid;
+  outline: 1px solid #000;
+  grid-template-columns: 150px  auto 150px;
+  grid-template-rows: 45px 35px;
+
+  grid-template-areas: 
+  "logo user cart"
+  "logo search cart";
+}
+
+@media (min-width : 1024px) {
+  .header {
+    /* grid-template-columns: 150px  minmax(380px, 780px) 200px auto 200px;
+    grid-template-areas: "logo search . user ."; */
+  }
+}

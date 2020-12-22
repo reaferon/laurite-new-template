@@ -1,0 +1,7 @@
+.header__user {
+  grid-area: user;
+  margin:0;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
