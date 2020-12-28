@@ -1,0 +1,13 @@
+.header__link {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transition: transform .3s;
+}
+.header__link:hover {
+  transform: scale(1.2);
+  transition: transform .3s;
+}

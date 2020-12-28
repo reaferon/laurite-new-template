@@ -3,7 +3,7 @@
   height: 60px;
   display: grid;
   grid-template-areas: "logo . navigation search . user";
-  grid-template-columns:  48px 48px auto minmax(300px, 500px) 48px 100px;
+  grid-template-columns:  48px 48px auto minmax(300px, 500px) 48px 150px;
 }
 
 /* .header {

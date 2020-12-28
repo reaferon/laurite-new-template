@@ -1,7 +1,6 @@
 .header__search {
   grid-area: search;
   display: flex;
-  outline: 1px solid #dadada;
   height: 60px;
 }
 /* .header__search {
