@@ -9,21 +9,20 @@
 <body class="body">
   <header class="header">
     <a href="/" class="header__logo"></a>
-    <form action="/" class="header__search"></form>
+    <nav class="navigation">
+      <ul class="menu navigation__menu">
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_directory">Каталог</a></li>
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_delivery">Доставка</a></li>
+        <li class="menu__item"><a href="/" class="menu__link menu__link_type_discounts">Скидки</a></li>
+      </ul>
+    </nav>
+    <form action="/" class="header__search">search</form>
     <ul class="header__user">
-      <li class="header__icon"><a class="header__icon-link header__icon-link_type_favorits" href="/"></a></li>
-      <li class="header__icon"><a class="header__icon-link header__icon-link_type_profile" href="/"></a></li>
+      <li class="header__icon"><a href="/"><object type="image/svg+xml" data="./images/svg/heart-white.svg" width="32" height="32"></object></a></li>
+      <li class="header__icon"><a href="/"><object type="image/svg+xml" data="./images/svg/cart.svg" width="32" height="32"></object></a></li>
     </ul>
   </header>
-  <nav class="navigation">
-    <ul class="menu navigation__menu">
-      <li class="menu__item"><a href="/" class="menu__link menu__link_type_directory">Каталог</a></li>
-      <li class="menu__item"><a href="/" class="menu__link menu__link_type_delivery">Доставка</a></li>
-      <li class="menu__item"><a href="/" class="menu__link menu__link_type_discounts">Скидки</a></li>
-      <li class="menu__item"><a href="/" class="menu__link menu__link_type_instructions">Инструкции</a></li>
-      <li class="menu__item"><a href="/" class="menu__link menu__link_type_cart">Корзина</a></li>
-    </ul>
-  </nav>
+
   <h1 class="title">title</h1>
   <main class="main">
     main

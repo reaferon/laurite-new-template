@@ -1,0 +1,10 @@
+.header__user {
+  grid-area: user;
+  display: flex;
+  list-style-type: none;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+}

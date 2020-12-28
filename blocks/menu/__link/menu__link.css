@@ -1,0 +1,16 @@
+.menu__link {
+  color: #dadada;
+  padding: 0 30px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.menu__link:hover {
+  background-color: #999;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
