@@ -1,6 +1,6 @@
 .navigation__menu {
-  list-style-type: none;
-  display: flex;
+  
+  /* display: flex; */
   margin: 0;
-  height: 60px;
+  padding: 0;
 }

@@ -1,0 +1,9 @@
+.menu__link_type_discounts {
+  background-image: url(../../../../images/svg/discounts.svg);
+}
+
+@media (min-width : 1024px) {
+  .menu__link_type_discounts {
+    background-image: none;
+  }
+}

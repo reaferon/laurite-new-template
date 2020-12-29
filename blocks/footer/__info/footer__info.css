@@ -1,0 +1,4 @@
+.footer__info {
+  grid-area: footer-info;
+  outline: 1px solid red;
+}

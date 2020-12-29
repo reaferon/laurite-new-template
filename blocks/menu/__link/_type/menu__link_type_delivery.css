@@ -1,0 +1,9 @@
+.menu__link_type_delivery {
+  background-image: url(../../../../images/svg/delivery.svg);
+}
+
+@media (min-width : 1024px) {
+  .menu__link_type_delivery {
+    background-image: none;
+  }
+}

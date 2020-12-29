@@ -1,11 +1,19 @@
 .header {
   grid-area: header;
-  height: 60px;
+  height: 50px;
   display: grid;
-  grid-template-areas: "logo . navigation search . user";
-  grid-template-columns:  48px 48px auto minmax(300px, 500px) 48px 150px;
+  grid-template-areas: "logo .  user";
+  grid-template-columns:  48px  auto 180px;
 }
 
+
+@media (min-width : 1024px) {
+  .header {
+    height: 60px;
+    grid-template-areas: "logo . navigation search . user";
+    grid-template-columns:  48px 48px auto minmax(100px, 500px) 48px 180px;
+  }
+}
 /* .header {
   grid-area: header;
   display: grid;

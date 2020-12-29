@@ -1,13 +1,24 @@
 .header__link {
-  display: block;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   min-width: 100%;
   min-height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 24px 24px;
   background-position: center center;
   transition: transform .3s;
+  color: #fff;
+  font-size: 0;
+  text-decoration: none;
 }
 .header__link:hover {
   transform: scale(1.2);
   transition: transform .3s;
+}
+
+@media (min-width : 1024px) {
+  .header__link {
+    font-size: 10px;
+  }
 }

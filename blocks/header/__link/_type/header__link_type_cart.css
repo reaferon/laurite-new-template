@@ -1,3 +1,11 @@
 .header__link_type_cart {
+  grid-area: cart-icon;
+  /* position: fixed;
+  bottom: 0;
+  right: 0; */
   background-image: url(../../../../images/svg/cart.svg);
+  /* color: #000;
+  outline: 1px solid red;
+  width: 32px;
+  height: 32px; */
 }

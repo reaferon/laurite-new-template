@@ -3,14 +3,13 @@
   background-image: url(../../images/full-bloom.png);
   display: grid;
   min-height: 100vh;
-  grid-template-columns: auto minmax(320px, 1280px) auto;
-  grid-template-rows: 60px 40px auto 100px;
+  width: 100%;
+  grid-template-rows: 50px 40px auto 150px;
   grid-template-areas: 
-    ". header ."
-    ". title ."
-    ". main ."
-    ". footer .";
-
+    "header"
+    "title"
+    "main"
+    "footer";
 }
 
 .body::before {
@@ -19,9 +18,21 @@
   position: absolute;
   z-index: -1;
   background-color: #666;
-  height: 60px;
+  height: 50px;
   width: 100%;
   box-shadow: 0px 2px 2px rgba(0,0,0, .8);
+}
+
+@media (min-width : 1024px) {
+  .body {
+    grid-template-columns: auto minmax(320px, 1280px) auto;
+    grid-template-rows: 60px 40px auto 150px;
+    grid-template-areas: 
+      ". header ."
+      ". title ."
+      ". main ."
+      "footer footer footer";
+  }
 }
 
 /* .body {
