@@ -1,0 +1,8 @@
+.header__icon_type_search>a {
+  background-image: url(../../../../images/svg/search.svg);
+}
+@media (min-width : 1024px) {
+  .header__icon_type_search {
+    display: none;
+  }
+}

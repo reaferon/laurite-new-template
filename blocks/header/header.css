@@ -2,7 +2,7 @@
   grid-area: header;
   height: 50px;
   display: grid;
-  grid-template-areas: "logo .  user";
+  grid-template-areas: "logo . user";
   grid-template-columns:  48px  auto 180px;
 }
 
@@ -14,18 +14,3 @@
     grid-template-columns:  48px 48px auto minmax(100px, 500px) 48px 180px;
   }
 }
-/* .header {
-  grid-area: header;
-  display: grid;
-  padding: 4px;
-  grid-template-columns: 150px  auto 50px 100px;
-  grid-template-rows: 50px;
-  grid-template-areas: "logo . search user";
-}
-
-@media (min-width : 1024px) {
-  .header {
-    grid-template-columns: 150px  minmax(380px, 780px) 200px auto 200px;
-    grid-template-areas: "logo search . user .";
-  }
-} */

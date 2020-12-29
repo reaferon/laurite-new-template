@@ -1,0 +1,13 @@
+.header__icon_type_cart {
+  display: none;
+}
+
+.header__icon_type_cart>a {
+  background-image: url(../../../../images/svg/cart.svg);
+}
+
+@media (min-width : 1024px) {
+  .header__icon_type_cart {
+    display: flex;
+  }
+}

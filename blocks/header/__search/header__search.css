@@ -1,7 +1,14 @@
 .header__search {
-  grid-area: search;
-  display: flex;
-  height: 60px;
+  display: none;
+}
+@media (min-width : 1024px) {
+  .header__search {
+    grid-area: search;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 100%;
+  }
 }
 /* .header__search {
   grid-area: search;

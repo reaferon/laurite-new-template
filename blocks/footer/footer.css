@@ -3,8 +3,14 @@
   background: #fff;
   min-height: 150px;
   border-top: 1px solid #666;
-  display: grid;
-  grid-template-columns: auto 320px minmax(320px, 640px) 320px auto;
-  grid-template-areas: 
-    ". footer-info footer-description footer-links .";
+  display: block;
+}
+
+@media (min-width : 1024px) {
+  .footer {
+    display: grid;
+    grid-template-columns: auto 320px minmax(320px, 640px) 320px auto;
+    grid-template-areas: 
+      ". footer-info footer-description footer-links .";
+  }
 }

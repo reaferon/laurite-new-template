@@ -1,9 +1,23 @@
 .menu {
   list-style-type: none;
   height: 50px;
-  
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media (min-width : 1024px) {
+  .menu {
+    height: 60px;
+  }
+  /* .menu {
+    height: 60px;
+    outline: 1px solid red;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:  "menu-directory menu-delivery meny-discounts";
+  } */
 }
 /* .menu {
   list-style-type: none;

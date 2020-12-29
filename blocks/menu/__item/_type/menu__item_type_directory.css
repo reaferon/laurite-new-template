@@ -1,9 +1,9 @@
-.menu__link_type_directory {
+.menu__item_type_directory > a {
   background-image: url(../../../../images/svg/directory.svg);
 }
 
 @media (min-width : 1024px) {
-  .menu__link_type_directory {
+  .menu__item_type_directory > a {
     background-image: none;
   }
 }

@@ -1,7 +1,7 @@
 .menu__link {
   color: #dadada;
   min-width: 100%;
-  font-size: 12px;
+  font-size: 10px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -11,7 +11,8 @@
   padding: 3px 3px;
   background-repeat: no-repeat;
   background-size: 24px 24px;
-  background-position: center 5px;
+  background-position: center 10px;
+  box-sizing: border-box;
 }
 
 .menu__link:hover {
@@ -24,6 +25,7 @@
   .menu__link {
     font-size: 24px;
     padding: 0 30px;
+    align-items: center;
   }
   
 }

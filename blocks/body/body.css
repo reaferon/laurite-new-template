@@ -25,13 +25,16 @@
 
 @media (min-width : 1024px) {
   .body {
-    grid-template-columns: auto minmax(320px, 1280px) auto;
+    grid-template-columns: auto minmax(1024px, 1280px) auto;
     grid-template-rows: 60px 40px auto 150px;
     grid-template-areas: 
       ". header ."
       ". title ."
       ". main ."
       "footer footer footer";
+  }
+  .body::before {
+    height: 60px;
   }
 }
 

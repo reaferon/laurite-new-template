@@ -9,23 +9,22 @@
 <body class="body">
   <header class="header">
     <a href="/" class="header__logo"></a>
-    <nav class="navigation">
-      <ul class="menu navigation__menu">
-        <li class="menu__item"><a href="/" class="menu__link menu__link_type_directory">Каталог</a></li>
-        <li class="menu__item"><a href="/" class="menu__link menu__link_type_delivery">Доставка</a></li>
-        <li class="menu__item"><a href="/" class="menu__link menu__link_type_discounts">Скидки</a></li>
-        <li class="menu__item"><a href="/" class="menu__link menu__link_type_cart">Корзина</a></li>
+    <nav class="header__navigation">
+      <ul class="menu">
+        <li class="menu__item menu__item_type_directory"><a href="/" class="menu__link">Каталог</a></li>
+        <li class="menu__item menu__item_type_delivery"><a href="/" class="menu__link">Доставка</a></li>
+        <li class="menu__item menu__item_type_discounts"><a href="/" class="menu__link">Скидки</a></li>
+        <li class="menu__item menu__item_type_cart"><a href="/" class="menu__link">Корзина</a></li>
       </ul>
     </nav>
-    <!-- <form action="/" class="header__search">
-      <fieldset class="header__fieldset">
-        <input class="header__input" type="text" placeholder="Поиск по сайту"><button class="header__button"></button>
-      </fieldset>
-    </form> -->
+    <form action="/" class="header__search">
+      <input class="header__input" type="text" placeholder="Поиск по сайту"><button class="header__button"></button>
+    </form>
     <ul class="header__user">
-      <li class="header__icon"><a class="header__link header__link_type_favorits" href="/">Избранное</a></li>
-      <li class="header__icon"><a class="header__link header__link_type_profile" href="/">Профиль</a></li>
-      <li class="header__icon"><a class="header__link header__link_type_cart" href="/">Корзина</a></li>
+      <li class="header__icon header__icon_type_favorits"><a class="header__link" href="/">Избранное</a></li>
+      <li class="header__icon header__icon_type_profile"><a class="header__link" href="/">Профиль</a></li>
+      <li class="header__icon header__icon_type_cart"><a class="header__link" href="/">Корзина</a></li>
+      <li class="header__icon header__icon_type_search"><a class="header__link" href="/">Поиск</a></li>
     </ul>
   </header>
 
@@ -85,7 +84,7 @@
     main <br>
     main <br>
   </main>
-  <!-- <footer class="footer">
+  <footer class="footer">
     <section class="footer__info">
       info
     </section>
@@ -95,6 +94,6 @@
     <section class="footer__links">
       links
     </section>
-  </footer> -->
+  </footer>
 </body>
 </html>
